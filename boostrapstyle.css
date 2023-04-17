@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.detail{
+    width: 400px;
+    margin-left: 8%;
+    margin-top: 13px;
+}
+.detail h1{
+    font-size: 40px;
+    color: black;
+    margin-bottom: 20px;
+}
+.detail a{
+    background: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+span{
+    color: hwb(44 0% 0% / 0.938);
+}
+.detail p{
+    color: black;
+    line-height: 22px;
+}
+h1 {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+
+.folio{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    float: right;
+    right: 20px;
+    border-radius: 50%;
+    border: 2px solid hwb(44 0% 0% / 0.938);
+    right: 20%;
+    bottom: 300px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  gap: 20px;
+}
+
+#section1{
+  flex: 1;
+  display: grid;
+  background: hwb(44 0% 0% / 0.938);
+  
+}
+#section2{
+  flex: 1;
+  display: grid;
+  background: hwb(44 0% 0% / 0.938);
+  
+}
+#section3{
+  flex: 1;
+  display: grid;
+  background: hwb(44 0% 0% / 0.938);
+  
+}
+#section4{
+  flex: 1;
+  display: grid;
+  background: hwb(44 0% 0% / 0.938);
+  
+}
+#section5{
+  flex: 1;
+  display: grid;
+  background: hwb(44 0% 0% / 0.938);
+}
+
+#realisation{
+  padding: 50px 0;
+  text-align: center;
+}
+.mur2{
+  color: black;
+  line-height: 22px;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin-top: 2%;
+  padding-bottom: 5%;
+ 
+}
+
+.realisation-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 100px;
+  margin-left: 15px;
+  
+  
+}
+
+.realisation-grid{
+  background-color: #fff;
+  padding: 10px;
+ 
+  
+}
+.realisation img{
+  width: 250px;
+  margin-top: 100px;
+  border: 2px solid hwb(44 0% 0% / 0.938);
+  border-radius: 15px;
+}
+h4{
+  text-align: center;
+}
+
+
+ @media only screen and (max-width: 800px) {
+   .folio{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 25px;
+    margin-top: 40%;
+    border-radius: 50%;
+    border: 2px solid hwb(44 0% 0% / 0.938);
+    bottom: 300px;
+}
+.realisation-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1px;
+  margin-left: 15px;
+}
+.realisation img{
+  width: 300px;
+  margin-top: 100px;
+  border: 2px solid hwb(44 0% 0% / 0.938);
+  border-radius: 15px;
+}
+
+
+ 
+} 
